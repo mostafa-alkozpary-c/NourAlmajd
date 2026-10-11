@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="truckBodyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- LOGO ICON (HALF-LORRY WITH BUILDING MATERIALS) -->
+  <g transform="translate(400, 15)">
+    <!-- Badge Background Circle -->
+    <rect x="-8" y="-5" width="116" height="95" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+    <rect x="-4" y="-1" width="108" height="87" rx="12" fill="url(#goldGrad)" opacity="0.12"/>
+    
+    <!-- Building Materials Stacked on Flatbed -->
+    <!-- Concrete blocks stack -->
+    <rect x="2" y="32" width="18" height="9" rx="1.5" fill="#64748B" stroke="#475569" stroke-width="1"/>
+    <rect x="22" y="32" width="18" height="9" rx="1.5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+    <rect x="42" y="32" width="18" height="9" rx="1.5" fill="#64748B" stroke="#475569" stroke-width="1"/>
+    
+    <rect x="10" y="22" width="18" height="9" rx="1.5" fill="#CBD5E1" stroke="#475569" stroke-width="1"/>
+    <rect x="30" y="22" width="18" height="9" rx="1.5" fill="#E2E8F0" stroke="#475569" stroke-width="1"/>
+    
+    <!-- Cement Bags / Materials shape -->
+    <path d="M18 15 C20 13, 38 13, 40 15 C42 17, 40 21, 38 22 L20 22 C18 21, 16 17, 18 15 Z" fill="#D97706" opacity="0.9"/>
+    <text x="29" y="20" font-family="Arial, sans-serif" font-size="5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">نور</text>
+
+    <!-- Truck Flatbed Base -->
+    <rect x="0" y="42" width="64" height="6" rx="1" fill="url(#metalGrad)"/>
+    <!-- Flatbed Stake Pockets/Racks -->
+    <rect x="0" y="28" width="3" height="14" fill="#475569"/>
+    <rect x="61" y="28" width="3" height="14" fill="#475569"/>
+    <rect x="0" y="27" width="64" height="2" fill="#D97706"/>
+
+    <!-- Truck Cab (Half-Lorry Design) -->
+    <!-- Main Cabin -->
+    <path d="M64 48 L64 22 C64 19 66 18 69 18 L79 18 C83 18 89 25 94 32 L98 37 C100 40 100 44 100 48 Z" fill="url(#truckBodyGrad)"/>
+    
+    <!-- Windshield -->
+    <path d="M78 21 L86 21 C89 21 93 26 95 32 L78 32 Z" fill="#38BDF8" opacity="0.85"/>
+    
+    <!-- Side Window -->
+    <path d="M68 22 L75 22 L75 32 L68 32 Z" fill="#BAE6FD" opacity="0.75"/>
+    
+    <!-- Door Cut Line & Handle -->
+    <path d="M67 33 L78 33 L78 46 L67 46 Z" fill="none" stroke="#334155" stroke-width="1"/>
+    <rect x="74" y="35" width="3" height="1.5" rx="0.5" fill="#E2E8F0"/>
+    
+    <!-- Headlight -->
+    <polygon points="98,39 101,41 101,45 98,44" fill="#FDE047"/>
+    <!-- Bumper -->
+    <path d="M96 46 L103 46 C104 46 104 49 103 50 L95 50 Z" fill="#94A3B8"/>
+    
+    <!-- Chassis Bottom Line -->
+    <rect x="10" y="47" width="85" height="4" fill="#1E293B"/>
+
+    <!-- Rear Wheels (Dual Wheels) -->
+    <g transform="translate(24, 52)">
+      <circle cx="0" cy="0" r="10" fill="#0F172A"/>
+      <circle cx="0" cy="0" r="6" fill="#64748B"/>
+      <circle cx="0" cy="0" r="3" fill="#E2E8F0"/>
+      <circle cx="0" cy="0" r="1.5" fill="#0F172A"/>
+    </g>
+    
+    <!-- Front Wheel -->
+    <g transform="translate(84, 52)">
+      <circle cx="0" cy="0" r="10" fill="#0F172A"/>
+      <circle cx="0" cy="0" r="6" fill="#64748B"/>
+      <circle cx="0" cy="0" r="3" fill="#E2E8F0"/>
+      <circle cx="0" cy="0" r="1.5" fill="#0F172A"/>
+    </g>
+
+    <!-- Ground / Motion Line -->
+    <line x1="-5" y1="63" x2="105" y2="63" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+    <line x1="15" y1="67" x2="85" y2="67" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- TYPOGRAPHY SECTION -->
+  <g transform="translate(385, 20)" text-anchor="end">
+    <!-- Brand Title -->
+    <text x="0" y="42" font-family="'Cairo', 'Tajawal', 'Segoe UI', Tahoma, sans-serif" font-size="34" font-weight="900" fill="#0F172A">
+      نُور المَجْد
+    </text>
+    
+    <text x="-165" y="42" font-family="'Cairo', 'Tajawal', 'Segoe UI', Tahoma, sans-serif" font-size="28" font-weight="800" fill="#D97706">
+      لمواد البناء
+    </text>
+    
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="70" font-family="'Tajawal', 'Cairo', 'Segoe UI', sans-serif" font-size="14.5" font-weight="600" fill="#475569">
+      طابوق • صلبوخ • اسمنت • لاصق سيراميك • مواد مساح • حديد
+    </text>
+    
+    <!-- Half-Lorry badge text -->
+    <g transform="translate(0, 82)">
+      <rect x="-180" y="0" width="180" height="20" rx="10" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1"/>
+      <text x="-90" y="14" font-family="'Tajawal', 'Cairo', sans-serif" font-size="11.5" font-weight="700" fill="#B45309" text-anchor="middle">
+        🚚 خدمة نقل وتوريد بهاف لوري
+      </text>
+    </g>
+  </g>
+</svg>
